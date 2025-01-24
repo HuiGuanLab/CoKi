@@ -1,5 +1,5 @@
-# Anonymized Repository for Fine-Grained Fashion Retrieval
-This repository contains the implementation of our research on fine-grained fashion retrieval.
+# Open-World Fine-Grained Fashion Retrieval with LLM-based Commonsense Knowledge Infusion
+This is a repository contains the implementation of our submission 590.
 
 ## Table of Contents
 
@@ -10,9 +10,9 @@ This repository contains the implementation of our research on fine-grained fash
 * [Evaluation](#evaluation)
 
 ## Environments
-- **Ubuntu** 20.04
-- **CUDA** 11.7
-- **Python** 3.7
+- **Ubuntu** 22.04
+- **CUDA** 12.2
+- **Python** 3.9
 
 Install other required packages by
 ```sh
