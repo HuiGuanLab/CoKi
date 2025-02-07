@@ -76,5 +76,5 @@ python main.py --cfg config/<Dataset>/<Dataset>.yaml config/<Dataset>/train.yaml
 Run the following script to test on the trained models:
 
 ```python
-python main.py --cfg config/<Dataset>/<Dataset>.yaml config/<Dataset>/train.yaml --resume runs/<Dataset>_s2/model_best.pth.tar --test TEST
+python main.py --cfg config/<Dataset>/<Dataset>.yaml config/<Dataset>/train.yaml --resume runs/<Dataset>_train/model_best.pth.tar --test TEST
 ```
