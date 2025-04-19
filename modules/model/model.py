@@ -21,8 +21,8 @@ class CoKi(nn.Module):
             'global': nn.ModuleDict({
                 'attrnet': AttrEmbedding(cfg.DATA.NUM_ATTRIBUTES, cfg.MODEL.ATTRIBUTE.EMBED_SIZE),
                 # 'basenet': get_model(cfg.MODEL.GLOBAL.BACKBONE.NAME, pretrained=True),
-                'basenet': get_peft_model(CLIPVisionModelWithProjection.from_pretrained("openai/clip-vit-base-patch16"), lora_config),
-                'textnet': CLIPTextModelWithProjection.from_pretrained("openai/clip-vit-base-patch16"),
+                'basenet': get_peft_model(CLIPVisionModelWithProjection.from_pretrained("openai/clip-vit-large-patch14"), lora_config),
+                'textnet': CLIPTextModelWithProjection.from_pretrained("openai/clip-vit-large-patch14"),
                 'mmattnet': MultiModalAttention(
                     embed_dim=cfg.MODEL.EMBED_SIZE,
                     num_heads=cfg.MODEL.MULTIHEAD.NUM_HEADS,
