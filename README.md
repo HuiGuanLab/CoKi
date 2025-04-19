@@ -1,5 +1,5 @@
 # Open-World Fine-Grained Fashion Retrieval with LLM-based Commonsense Knowledge Infusion
-This repository contains the implementation of our submission 590.
+This repository contains the implementation of our SIGIR'25 full paper.
 ![network structure](figure/pipeline.png)
 
 ## Table of Contents
