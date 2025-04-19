@@ -78,3 +78,8 @@ Run the following script to test on the trained models:
 ```python
 python main.py --cfg config/<Dataset>/<Dataset>.yaml config/<Dataset>/train.yaml --resume runs/<Dataset>_train/model_best.pth.tar --test TEST
 ```
+
+We release several pretrained models:
+- Coki on FashionAI: [released_model](https://drive.google.com/file/d/15B1MjoPYb9j0fNEmedtCCGS3BiaJC-Lv/view?usp=sharing)
+- Coki on DARN: [released_model](https://drive.google.com/file/d/19OA687V5DC_S6dcVDiTgTKhiHzwDdLlr/view?usp=sharing)
+- Coki on DeepFashion: [released_model](https://drive.google.com/file/d/1XMXJ_q9s0Oh5xGgvre57gKrPoZ40PKGK/view?usp=sharing)
